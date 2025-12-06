@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flip2the.other.side 🍿</title>
+    
+    <style>
+        /* Basic Reset and Body Styling */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #EBEBEB; /* Light background */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Header Styling */
+        header {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            color: #ff6b6b; /* Accent color for the snack place */
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-style: italic;
+            color: #666;
+        }
+
+        /* Image Containers */
+        .image-container {
+            width: 100%;
+            max-width: 600px; /* Max width for images */
+            margin: 20px auto;
+            border-radius: 10px;
+            overflow: hidden; /* Ensures borders/shadows apply nicely */
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Lifted effect */
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Hover effect for a nice touch */
+        .image-container:hover {
+            transform: scale(1.02);
+        }
+
+        /* Styling for actual images */
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* --- The Elegant Separator --- */
+        .separator {
+            width: 80%; /* Takes up most of the page width */
+            max-width: 500px;
+            height: 10px; /* Thickness */
+            background-color: #ff6b6b; /* Main accent color */
+            margin: 40px auto;
+            position: relative;
+            border-radius: 5px; /* Slightly rounded edges */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* A subtle decorative element (a small 'dot' or 'notch') */
+        .separator::after {
+            content: '★'; /* Unicode star or use any symbol */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            font-size: 1.2em;
+            line-height: 1; /* Keep it centered */
+        }
+        
+        /* Footer Styling */
+        footer {
+            margin-top: 40px;
+            padding: 15px;
+            border-top: 1px solid #ccc;
+            font-size: 0.9em;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+ 
+
+    <main>
+        
+        <div class="image-container">
+            <img src="1.PNG">
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="image-container">
+            <img src="2.PNG">
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Follow us for updates!</p>
+    </footer>
+
+</body>
+</html>
